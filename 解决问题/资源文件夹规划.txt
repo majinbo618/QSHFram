@@ -1,0 +1,46 @@
+
+
+Art\ArtUsePrefabs：美术自行使用，程序不读取
+
+Art\Environment：美术自行使用，程序不读取   场景相关
+Art\Particle：美术自行使用，程序不读取   特效
+
+Imgs：界面原始散图     程序使用来拼接界面
+	Imgs\Common：公共资源			资源命名前缀:  img_com_
+	Imgs\Login：登录模块文件夹		资源命名前缀:  img_login_
+	Imgs\Lobby：大厅模块文件夹		资源命名前缀:  img_lobby_
+	Imgs\......
+	
+	
+
+程序、策划使用 以下
+
+Prefabs\Model  模型预制件
+Prefabs\Model\Common  通用模型预制件  prb_com_
+Prefabs\Model\Build	        建筑模型划分  prb_build_
+Prefabs\Model\...	        
+	
+Prefabs\UI  界面模块预制件  (程序使用的)      全屏窗口： ui_wd_     面板： ui_pl_  对话框: ui_dl_
+Prefabs\UI\Common 界面通用组件
+Prefabs\UI\Login	登录相关界面	
+Prefabs\UI\Lobby	大厅相关界面 
+Prefabs\UI\... 	其他各系统相关
+
+Prefabs\Particle  特效  (程序使用的)
+Prefabs\Particle\com  通用特效  fx__com
+Prefabs\Particle\UI  UI特效  fx_ui_
+
+Scenes 最终要使用的场景文件夹
+
+Shaders 自定义shader存放文件夹
+
+
+
+
+
+所有最终文件名  全部小写
+文件目录设置的宗旨：1：区分出团队各工种使用的文件夹  
+					2: 区分出哪些资源入包哪些不入包  
+					3:要有利于最终资源打包（打包自动化代码编写） 
+					4：文件名要方便查找搜索
+

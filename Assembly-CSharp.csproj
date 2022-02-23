@@ -83,6 +83,7 @@
     <Compile Include="Assets\Game\Interface\IUseInfo.cs" />
     <Compile Include="Assets\Game\NetWork.cs" />
     <Compile Include="Assets\QSH\AppConst.cs" />
+    <Compile Include="Assets\QSH\BaseSTCInfo.cs" />
     <Compile Include="Assets\QSH\Json\MiniJSON.cs" />
     <Compile Include="Assets\QSH\Singleton\MonoSingleton.cs" />
     <Compile Include="Assets\QSH\Singleton\Singleton.cs" />

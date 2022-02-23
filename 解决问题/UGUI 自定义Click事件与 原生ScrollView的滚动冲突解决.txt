@@ -1,0 +1,1 @@
+自定义的事件触发器阻拦了原生的事件发送，此时需要在自定义的OnBeginDrag   OnDrag   OnEndDrag函数里面调用  ScrollRect对应的3个函数
