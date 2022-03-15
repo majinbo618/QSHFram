@@ -87,7 +87,7 @@
     <Compile Include="Assets\QSH\Json\MiniJSON.cs" />
     <Compile Include="Assets\QSH\Singleton\MonoSingleton.cs" />
     <Compile Include="Assets\QSH\Singleton\Singleton.cs" />
-    <Compile Include="Assets\QSH\Tools\PathTools.cs" />
+    <Compile Include="Assets\QSH\Tools\PathConst.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/work/QshFram/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
