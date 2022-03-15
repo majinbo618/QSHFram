@@ -653,7 +653,23 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="解决问题\Addressables设置相关.txt" />
+    <Content Include="解决问题\DoTween中unity的组件扩展.txt" />
+    <Content Include="解决问题\IIS配置php服务.txt" />
+    <Content Include="解决问题\Package中的插件源码存放位置.txt" />
+    <Content Include="解决问题\UGUI RectTransform相关.txt" />
+    <Content Include="解决问题\UGUI 自定义Click事件与 原生ScrollView的滚动冲突解决.txt" />
+    <Content Include="解决问题\为什么需要配置环境变量.txt" />
+    <Content Include="解决问题\修改子物体层级的顺序.txt" />
+    <Content Include="解决问题\常用正则表达式.txt" />
+    <Content Include="解决问题\编辑器中去除预制件实例与预制件之间的关联.txt" />
+    <Content Include="解决问题\编辑器扩展常用属性.txt" />
+    <Content Include="解决问题\资源文件夹规划.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="解决问题\excel格式标准.docx" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

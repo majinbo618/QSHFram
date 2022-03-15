@@ -1,0 +1,5 @@
+﻿unity2019之前   在编辑器的GameObject菜单下面   有个Break Prefab Instance
+
+unity2019之后	直接在Hierarchy面板中  右键点击 该预制件的实例  弹出菜单中有个选项 
+				Unpack Prefab  解除选中的物体的预制件关联关系（不包括子物体的预制件关联关系）
+				Unpack Prefab Completely 解除选中的物体及其所有子物体（递归）的预制件关联关系

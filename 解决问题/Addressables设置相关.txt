@@ -1,0 +1,34 @@
+Remote Build  资源创建到指定目录， 此Group的资源不会进入apk包，需要联网下载
+Local Build   资源创建到Library目录， 会在打包时候自动进入apk包的  StreamingAssets
+
+使用的哪种模式 以AddressableAssetSettings 中 ContentUpdate下的buildRemoteCatalog是否启用决定   启用->Remote Build  不启用->Local Build
+
+
+正常情况都是需要热更新的   在正式打包的时候  就需要 RemoteBuild 
+
+此时需要区分 RemoteLoad  也就是从什么地方加载资源：
+
+1：用到的时候再从网上下   可用remote从网上下载   此时 RemoteLoad 可直接加载地址为网页地址 http://.....
+
+2：一般情况都会在app启动后直接将更新文件全部下载完毕。所以  RemoteLoad 一般用  [UnityEngine.Application.persistentDataPath]/com.unity.addressables 且address
+初始化必须在资源加载完成后才能开始初始化， 此时 address自己提供的一套检测更新就用不上了  得用自己开发维护的一套资源下载
+
+3, 自定义静态变量可以用于配置设置  类似[PathConst.RemoteLoadPath]
+
+注意增量更新必须保存好 AddressableAssetsData下  对应平台的（例：Windows） addressables_content_state.bin 文件  每一次build都会改变它，
+所以需要保存对应正式发布的版本的bin文件。缺失后就只能全量更新了
+
+
+对应单个的资源组设定
+1：热更需要选择RemoteBuildPath 以及 RemoteLoadPath
+
+
+2：	setting.groupInfo.Schemas  
+	schema is BundledAssetGroupSchema
+	BundledAssetGroupSchema
+
+
+	Include in Build 表示是否打包该bundle
+	use asset bundle cache    是否使用缓存   不启用，启用后需配套处理不然加载资源会报错
+	use asset bundle crc    是否启用crc校验   不启用,启用后需配套处理不然加载资源会报错
+	use crc for cached asset bundle 是否启用缓存的crc校验   不启用,启用后需配套处理不然加载资源会报错

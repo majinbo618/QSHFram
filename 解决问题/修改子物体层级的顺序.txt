@@ -1,0 +1,15 @@
+﻿
+
+transform.SetAsFirstSibling(); 放到最上面
+
+transform.SetAsLastSibling();放大最下面
+
+transform.SetSiblingIndex(count);根据物体下标修改
+count=0；为最上面的
+count-1；为最下面的
+
+
+transform.DetachChildren(); 解除父子关系
+
+
+UI的层级关系是通过渲染表现出来的，在canvas下的物体，排序越靠前的越先被渲染

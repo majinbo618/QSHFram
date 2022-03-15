@@ -1,0 +1,9 @@
+Unity Package中的插件都存在哪些地方
+
+一类是安装Unity时自带的插件，比如UGUI
+	Unity自带的插件存放在Unity的安装目录中  编辑器安装路径\Editor\Data\Resources\PackageManager\BuiltInPackages
+	
+
+
+另一类是通过Package Manager从远程地址下载下来的插件。
+	从远程地址下载的插件存放在Unity工程的PackageCache目录中 Unity工程目录/Library/PackageCache

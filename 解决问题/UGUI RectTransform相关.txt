@@ -1,0 +1,12 @@
+
+LocalPos的值   指的是物体pivot相对于其父节点pivot的位移
+
+pivot  变化点（指物体矩形内部位置坐标原点 0,0）
+Anchors min  物体左下角  锚定 父物体矩形范围 中的一个点  
+Anchors max  物体右上角  锚定 父物体矩形范围 中的一个点  
+
+sizeDetail  当锚点 min  max为同一值  即4个点合成一个点时候   为pivot的
+
+
+localPosition 属性代表 自身pivot点映射在父物体坐标系中 相对于父物体 pivot点的  位移。
+anchoredPosition  属性代表  自身pivot点映射在父物体坐标系中    相对于自身4个锚点的中心点 的位移
