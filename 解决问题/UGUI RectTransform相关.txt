@@ -10,3 +10,8 @@ sizeDetail  当锚点 min  max为同一值  即4个点合成一个点时候   �
 
 localPosition 属性代表 自身pivot点映射在父物体坐标系中 相对于父物体 pivot点的  位移。
 anchoredPosition  属性代表  自身pivot点映射在父物体坐标系中    相对于自身4个锚点的中心点 的位移
+
+
+修改UI Prefab预览环境Canvas(Environment)    Edit->ProjectSetting->Editor->
+UI类  UI Environment 使用自定义的场景替换
+非UI预制件， Regular Environment 使用自定义的场景替换

@@ -22,12 +22,16 @@
 [ExecuteInEditMode] //允许脚本在编辑器未运行的情况下运行
 [CanEditMultipleObjects] //允许当选择多个挂有该脚本的对象时，统一修改值
 [AddComponentMenu] //可以在菜单栏Component内添加组件按钮
-[CustomEditor] //要自定义编辑器就要加这个特性
+[CustomEditor] //要自定义编辑器中的Inspector页签就要加这个特性
 [CustomPropertyDrawer] //用于绘制自定义PropertyDrawer的特性
 [SelectionBase] //选择在场景视图中使用此属性的组件对象，即不会误选中子物体
 
 [ExecuteAlways] 使脚本的实例在播放模式期间以及编辑时始终执行。
 [ExecuteInEditMode] 使脚本的实例在编辑时可执行。
 
+
+例子：
+给鼠标右键选择物体的弹出菜单添加   如：
+[MenuItem("GameObject/UI/打印")]  编辑器Hierarchy中右键菜单中就会在UI的菜单下多一个选项打印
 
 

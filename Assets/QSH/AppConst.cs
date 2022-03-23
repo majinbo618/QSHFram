@@ -25,8 +25,6 @@ namespace QSH
         public const string AppName = "WOW";               //应用程序名称
         public const string UpdateFileName = "hotFix";
         public const string ChannelName = "chanel";
-
-
         
 
     }

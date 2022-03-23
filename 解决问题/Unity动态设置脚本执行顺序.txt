@@ -1,0 +1,6 @@
+1. Scriptable Execution Order方式
+	Edit->Project Setting->Script Execution Order 编辑器中直接编辑
+	设置简单，执行效率高，但是依托于工程设置并不方便
+
+2. DefaultExecutionOrder属性
+

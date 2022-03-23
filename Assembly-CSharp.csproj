@@ -654,9 +654,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="解决问题\Unity动态设置脚本执行顺序.txt" />
     <Content Include="解决问题\Addressables设置相关.txt" />
     <Content Include="解决问题\DoTween中unity的组件扩展.txt" />
-    <Content Include="解决问题\IIS配置php服务.txt" />
+    <Content Include="解决问题\IIS配置php服务及vc运行时.txt" />
     <Content Include="解决问题\Package中的插件源码存放位置.txt" />
     <Content Include="解决问题\UGUI RectTransform相关.txt" />
     <Content Include="解决问题\UGUI 自定义Click事件与 原生ScrollView的滚动冲突解决.txt" />
